@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="/css/style.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
   <body>
@@ -26,7 +27,23 @@
     <!-- navbar start -->
 <nav>
   <div class="navbar">
-    <div id="datetime"></div>
+    <!-- <div id="datetime"></div> -->
+
+    <p id="currentDateTime"></p>
+
+    <script>
+      $(document).ready(function() {
+        // Update the current date and time every second
+        setInterval(updateDateTime, 1000);
+      });
+  
+      function updateDateTime() {
+        var currentDateTime = new Date();
+        var formattedDateTime = currentDateTime.toLocaleString();
+        $('#currentDateTime').text(formattedDateTime);
+      }
+    </script>
+
     <div class="logo"><em>Deepak's Portfolio.</em></div>
 
         <ul class="menu">
@@ -94,7 +111,16 @@
         <div class="text">
           <div class="topic"></div>
           <p><b><h3>Core Java</h3></b>Java Introduction, Datatypes & Variables, Operators in Java, Java Control Statements (If, If-else, Switch, While, For, Do-while, Break, Continue), Arrays in Java, Strings in Java, Object Oriented Programming, Classes and Object, Constructor, Inheritance (Single and Multilevel), Interface, Abstraction, Encapsulation, Polymorphism, Exception Handling in Java, Java Packages, Threads, Java Applets & Frames etc. </p>
-           
+          <br><br>
+          <p><b><h3>Collection Framework</h3></b></p> 
+          <br><br>
+          <p><b><h3>Servlet</h3></b></p>
+          <br><br>
+          <p><b><h3>JSP</h3></b></p>
+          <br><br>
+          <p><b><h3>JDBC</h3></b></p>
+          <br><br>
+          <p><b><h3>MySQL</h3></b></p>
             <!-- <div class="experience">
               <div class="num">0</div>
               <div class="exp">Year of<br>experience</div>

@@ -17,22 +17,22 @@ window.onscroll=function(){
 }
 
 
-  // Get the current date and time
-  var currentDate = new Date();
+//   // Get the current date and time
+//   var currentDate = new Date();
 
-  // Define an array for the day names
-  var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+//   // Define an array for the day names
+//   var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-  // Get the day, month, year, hours, and minutes
-  var day = days[currentDate.getDay()];
-  var date = currentDate.getDate();
-  var month = currentDate.getMonth() + 1; // Add 1 because months are zero-based
-  var year = currentDate.getFullYear();
-  var hours = currentDate.getHours();
-  var minutes = currentDate.getMinutes();
+//   // Get the day, month, year, hours, and minutes
+//   var day = days[currentDate.getDay()];
+//   var date = currentDate.getDate();
+//   var month = currentDate.getMonth() + 1; // Add 1 because months are zero-based
+//   var year = currentDate.getFullYear();
+//   var hours = currentDate.getHours();
+//   var minutes = currentDate.getMinutes();
 
-  // Format the date and time as desired (e.g., "Monday, June 29, 2023 12:30 PM")
-  var formattedDateTime = day + ', ' + month + '/' + date + '/' + year + ' ' + hours + ':' + minutes;
+//   // Format the date and time as desired (e.g., "Monday, June 29, 2023 12:30 PM")
+//   var formattedDateTime = day + ', ' + month + '/' + date + '/' + year + ' ' + hours + ':' + minutes;
 
-  // Set the content of the <h1> element to the formatted date and time
-  document.getElementById('datetime').innerHTML = formattedDateTime;
+//   // Set the content of the <h1> element to the formatted date and time
+//   document.getElementById('datetime').innerHTML = formattedDateTime;

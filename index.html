@@ -8,6 +8,9 @@
     <!--Fontawesome CDN link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
    
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <title>Responsive Portfolio Website</title>
         <link rel="stylesheet" href="/css/style.css">
 
@@ -16,13 +19,7 @@
     
 </head>
   <body>
-    
-    
 
-    <!-- Move to up botton -->
-    <!-- <div class="scroll-button">
-      <a href="#home"><i class="fas fa-arrow-up"></i></a>
-    </div> -->
 
     <!-- navbar start -->
 <nav>
@@ -52,9 +49,7 @@
           <li><a href="#skills">Skills</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
           <li><a href="#projects">Projects</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
           <li><a href="#contact">Contact</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-          <div class="cancle-btn">
-            <i class="fas fa-times"></i>
-          </div>
+          <li><a href="content.html">Content</a></li>
         </ul>
         <div class="media-icons">
           <a href="https://www.facebook.com/deepak.kumarsharma.98622" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -108,99 +103,150 @@
     <div class="content">
       <div class="title"><span>My Skills</span></div>
       <div class="skills-details">
-        <div class="text">
-          <div class="topic"></div>
-          <p><b><h3>Core Java</h3></b>Java Introduction, Datatypes & Variables, Operators in Java, Java Control Statements (If, If-else, Switch, While, For, Do-while, Break, Continue), Arrays in Java, Strings in Java, Object Oriented Programming, Classes and Object, Constructor, Inheritance (Single and Multilevel), Interface, Abstraction, Encapsulation, Polymorphism, Exception Handling in Java, Java Packages, Threads, Java Applets & Frames etc. </p>
-          <br><br>
-          <p><b><h3>Collection Framework</h3></b>Introduction of Collection Framwork, The List Interface( ArrayList class, LinkedList class, Vector class (legacy), Stack class (legacy)), The Set Interface ( HashSet class, LinkedHashSet class, TreeSet class), The Queue Interface (PriorityQueue class, LinkedList class), The Map Interface (HashMap class, LinkedHashMap class, TreeMap class, HashTable class (legacy)) etc.</p> 
-          <br><br>
-          <p><b><h3>Servlet</h3></b>Introduction of Servlet, Servlet API, Servlet Interface, GenericServlet, HttpServletServlet, Life CycleServlet, welcome-file-list, ServletRequest, Servlet Collaboration( RequestDispacher, sendRedirect) ServletConfig, ServletContext, Attribute in Servlet, Session Tracking :Cookies (Login & Logout) Hidden Form Field, URL Rewriting, HttpSessionSession (Login & Logout), Servlet Filter etc.</p>
-          <br><br>
-          <p><b><h3>JSP</h3></b>JSP Introduction, Life cycle of JSP(JSP API), JSP scriptlet tag, JSP expression tag, JSP declaration tag, JSP Request, JSP Response, JSP Config, JSP Application, JSP Session, PageContext, JSP Page, JSP Exception, Page directive, Include directive, Taglib directive, forward, include, Java Bean class, Use Bean, set & getProperty, Displaying applet in JSP, Expression Language, JSP Custom tags, Custom Tag, Attributes, Iteration etc.</p>
-          <br><br>
-          <p><b><h3>JDBC</h3></b>JDBC Introduction, JDBC Driver, MySQL, DriverManager, Connection, Statement, ResultSet, PreparedStatement, Store image, Retrieve image, Store file, Retrieve file etc.</p>
-          <br><br>
-          <p><b><h3>MySQL</h3></b>Introduction of MySQL, Working of MySQL, Database Operation, Table Operation (SELECT, DISTINCT, WHERE, AND, OR, NOT, BETWEEN, IN, LIMIT, LIKE clause, JOINS, PRIMARY KEY and FOREIN KEY) etc.</p>
-            <!-- <div class="experience">
-              <div class="num">0</div>
-              <div class="exp">Year of<br>experience</div>
-            </div> -->
+        <div class="row">
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/java2-logo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-secondary">Core Java...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/javaf1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-secondary">Framework...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/springB.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
           </div>
-          <div class="boxes">
-            <div class="box">
-              <p><b><h3>Spring Framework</h3></b></p>
-              <br><br>
-              <p><b><h3>Hibernate</h3></b></p>
-              <br><br>
-              <p><b><h3>Spring MVC</h3></b></p>
-              <br><br>
-              <p><b><h3>SpringBoot</h3></b></p>
-              <br><br>
-              <p><b><h3>HTML</h3></b></p>
-              <br><br>
-              <p><b><h3>CSS</h3></b></p>
-              <br><br>
-              <p><b><h3>AutoCAD & Solid Work/h3></b></p>
-              <!-- <div class="topic">Core Java</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">Collection Framework</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">Servlet</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">JSP</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">JDBC</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">Spring Framework</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">Hibernate</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">Spring MVC</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">MySQL</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">HTML</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">CSS</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">Bootstrap</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">Javascript</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">AutoCAD</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div>
-            <div class="box">
-              <div class="topic">Solid Work</div> -->
-              <!-- <div class="per">100%</div> -->
-            <!-- </div> -->
+          <a href="#" class="btn btn-secondary">Spring Frameworkt...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/springB.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
           </div>
+          <a href="#" class="btn btn-secondary">Spring Boot...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/hiber.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+          </div>
+          <a href="#" class="btn btn-secondary">Hibernate...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/thym.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+          </div>
+          <a href="#" class="btn btn-secondary">Thymeleaf...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/sql.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+          </div>
+          <a href="#" class="btn btn-secondary">MySQL...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/java2-logo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+          </div>
+          <a href="#" class="btn btn-secondary">HTML...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/java2-logo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+          </div>
+          <a href="#" class="btn btn-secondary">CSS...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/java2-logo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+          </div>
+          <a href="#" class="btn btn-secondary">Boostrap...</a>
+          </div>        
+        </div>
+
+        <div class="col-sm m-2">
+          <div class="card border-primary" style="width: 14rem;">
+            <img src="images/java2-logo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+          </div>
+          <a href="#" class="btn btn-secondary">JavaScript...</a>
+          </div>        
+        </div>
+
+        
+
+        
+
+        
+
+       
+                  
+        
+      </div>
       </div>
     </div>
  </section>
@@ -235,6 +281,8 @@
       </div>
     </div>
  </section>
+
+ 
 
  <!-- contact me section start -->
  <section class="contact" id="contact">

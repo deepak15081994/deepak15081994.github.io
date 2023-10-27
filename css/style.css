@@ -25,7 +25,7 @@
   }
   ::-webkit-scrollbar-thumb{
     background: var --primary-color;
-    border-radius: 12px;
+    border-radius: 10px;
     transition: all 0.3s ease;
 
   }
@@ -36,7 +36,7 @@
   nav{
     position: fixed;
     width: 100%;
-    padding: 20px 0;
+    padding: 15px 0;
     z-index: 1000;
     transition: all 0.3s ease;
   }
@@ -56,7 +56,7 @@
     font-weight: 500;
     font-size: 35px;
     color: var(--primary-color);
-    text;
+    
   }
   nav.sticky .navbar .logo{
     color: var(--white-color);
@@ -79,6 +79,7 @@
     padding: 6px 0;
     transition: all 0.4s ease;
     word-spacing: 50px;
+    text-decoration: none;
   }
  .navbar .menu a:hover{
     color: var(--primary-color);
@@ -279,51 +280,18 @@ section .button button:hover{
 .skills .content{
   padding: 40px 0;
 }
-.skills .skills-details{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.skills-details .text{
-  width: 50%;
 
-}
-.skills-details p{
-  color: var(--black-color);
-  text-align: justify;
-}
-.skills .about-details .experience{
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
 
+
+.skills .content .row .card{
+  box-shadow: 0 8px 15px rgb(214, 106, 106);
 }
-.skills-details .experience .num{
-  color: vae(--black-color);
-  margin-left: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 6px;
+.skills .content .progress:hover{
+  background: var(--primary-color);
+  color: var(--white-color);
 }
-.skills-details .boxes{
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.skills-details .box{
-  width: calc(100% - 20px);
-  margin: 20px 0;
-}
-.skills-details .boxes .topic{
-  font-size: 20px;
-  color: #5d0d09;
-  font-weight: 700;
-}
-/* .skills-details .boxes .per{
-  font-size: 40px;
-  color: #ff8882;
-} */
+
+
 /* My Project CSS .............................*/
 .projects .boxes{
   display: flex;
@@ -363,6 +331,13 @@ section .button button:hover{
 .projects .boxes .box:hover p{
   color: var(--white-color);
   transition: all 0.4s ease;
+}
+
+/* content css ***************************************/
+.overflow-scroll{
+  height: 150px;
+  box-shadow: 0 5px 10px rgb(174, 122, 48);
+
 }
 
 /* Contact CSS ..................................*/

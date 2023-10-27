@@ -36,6 +36,9 @@ window.onscroll=function(){
 
 //   // Set the content of the <h1> element to the formatted date and time
 //   document.getElementById('datetime').innerHTML = formattedDateTime;
+<<<<<<< HEAD
 
 
   
+=======
+>>>>>>> development

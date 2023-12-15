@@ -100,14 +100,16 @@
   }
   .navbar .media-icons a{
     color: var(--primary-color);
-    font-size: 18px;
+    font-size: 15px;
     margin: 0 6px;
+    
     
   }
   .navbar .media-icons a:hover{
     color: blue;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0 6px;
+    
   
   }
   nav.sticky .media-icons a{
@@ -632,3 +634,4 @@ section{
 } */
 
 /* sidebar CSS end */
+

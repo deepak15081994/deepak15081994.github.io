@@ -26,7 +26,7 @@
   <div class="navbar">
     <!-- <div id="datetime"></div> -->
 
-    <p id="currentDateTime"></p>
+    <!-- <p id="currentDateTime"></p> -->
 
     <script>
       $(document).ready(function() {
@@ -47,21 +47,23 @@
     <div class="logo"><em>Deepak's Portfolio.</em></div>
 
         <ul class="menu">
-          <li><a href="#home">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-          <li><a href="#about">About</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-          <li><a href="#skills">Skills</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-          <li><a href="#projects">Projects</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-          <li><a href="#contact">Contact</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li><a href="content.html">Content</a></li>
         </ul>
-        <div class="media-icons">
-          <a href="https://www.facebook.com/deepak.kumarsharma.98622" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        
+        <div class="media-icons d-flex">
+          <p id="currentDateTime"></p>
+          <a href="https://www.facebook.com/deepak.kumarsharma.98622" target="_blank"><i class="fab fa-facebook-f ms-2"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
       <div class="menu-btn">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars">Menu</i>
       </div>
 
 <!-- sidebar start -->
@@ -115,7 +117,7 @@
             Hello! My name is Deepak Kumar Sharma and I enjoy creating things that live on the internet. My interest in web development started back in 2022 when I decided to try coding. After which I started software development with a lot of skills in Core-Java, Opps, Collection Framework, Servlet, JSP, JDBC, Spring Framework, Spring MVC, Hibernate, Spring ORM & basic HTML, CSS, Bootstrap.<br>
             Life continued to move forward, and I had the privilege of working with a great company. My main focus these days is digital experiences for a variety of Skills.
             <div>
-            <button  class="button"><a href="/images/Deepak_CV...pdf" download="Deepak_CV">Download Latest CV</a></button>
+            <button  class="button"><a href="/images/Deepak_Sharma_Resume.pdf" download="Deepak_CV">Download CV</a></button>
           </div>
         </div>
       </div>
@@ -280,35 +282,41 @@
   
  <!-- My Project Start -->
 
- <section class="projects" id="projects">
-    <div class="content">
-      <div class="title"><span>My Projects</span></div>
-      <div class="boxes">
-        <div class="box">
-          <div class="icon">
-            <i class="fas fa-desktop"></i>
+ <div class="container">
+  <div class="row">
+    <div class="col">
+      <section class="projects" id="projects">
+        <div class="content">
+          <div class="title"><span>My Projects</span></div>
+          <div class="boxes">
+            <div class="box">
+              <div class="icon mt-5">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="topic"><a href="http://localhost:9494/productcrudapp/" target="_blank">Project1</a></div>
+              <p>Designed & developed a Web Project with a back-end using Spring MVC, Hibernate ORM & MySQL database & front-end using HTML, CSS & Bootstrap.
+                Added modern feature to create, update, delete, and display data on any report separately.</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="topic"><a href="#">Project2</a></div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="topic"><a href="#">Project3</a></div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+            </div>
           </div>
-          <div class="topic"><a href="http://localhost:9494/productcrudapp/" target="_blank">Project1</a></div>
-          <p>Designed & developed a Web Project with a back-end using Spring MVC, Hibernate ORM & MySQL database & front-end using HTML, CSS & Bootstrap.
-            Added modern feature to create, update, delete, and display data on any report separately.</p>
         </div>
-        <div class="box">
-          <div class="icon">
-            <i class="fas fa-desktop"></i>
-          </div>
-          <div class="topic"><a href="#">Project2</a></div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-        </div>
-        <div class="box">
-          <div class="icon">
-            <i class="fas fa-desktop"></i>
-          </div>
-          <div class="topic"><a href="#">Project3</a></div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-        </div>
-      </div>
+     </section>
     </div>
- </section>
+  </div>
+ </div>
 
 
  
